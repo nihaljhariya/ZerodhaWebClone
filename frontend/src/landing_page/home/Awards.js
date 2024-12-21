@@ -8,7 +8,7 @@ function Awards() {
           <img src="media/images/largestBroker.svg" />
         </div>
         <div className="col-6 p-5 mt-5">
-          <h1>Largest stock broker in India</h1>
+          <h1 style={{color:"#424242"}}>Largest stock broker in India</h1>
           <p className="mb-5">
             2+ million Zerodha clients contribute to over 15% of all retail
             order volumes in India daily by trading and investing in:

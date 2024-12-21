@@ -3,57 +3,60 @@ import React from "react";
 function Footer() {
   return (
     <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
-      <div className="container border-top mt-5">
+      <div className="container border-top mt-3">
         <div className="row mt-5">
           <div className="col">
             <img src="media/images/logo.svg" style={{ width: "50%" }} />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
+            <div>
+            <img src="media/images/Socialmedia.png" style={{ padding:"0",  width: "80%" }} />
+            </div>
           </div>
-          <div className="col">
-            <p>Company</p>
-            <a href="">About</a>
+          <div className="col " >
+            <p  style={{ fontWeight:"700" ,  color:"#424242" }} >Company</p>
+            <a   style={{ textDecoration: "none",   color:"#424242" }} href="">About</a>  <br/> 
             <br />
-            <a href="">Products</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Products</a>  <br/>
             <br />
-            <a href="">Pricing</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Pricing</a>  <br/>
             <br />
-            <a href="">Referral programme</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Referral programme</a>  <br/>
             <br />
-            <a href="">Careers</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Careers</a>  <br/>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Zerodha.tech</a>  <br/>
             <br />
-            <a href="">Press & media</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Press & media</a>  <br/>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
-            <br />
-          </div>
-          <div className="col">
-            <p>Support</p>
-            <a href="">Contact</a>
-            <br />
-            <a href="">Support portal</a>
-            <br />
-            <a href="">Z-Connect blog</a>
-            <br />
-            <a href="">List of charges</a>
-            <br />
-            <a href="">Downloads & resources</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Zerodha cares (CSR)</a>  <br/>
             <br />
           </div>
-          <div className="col">
-            <p>Account</p>
-            <a href="">Open an account</a>
+          <div className="col " >
+            <p style={{ fontWeight:"700" ,  color:"#424242" }}>Support</p>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Contact</a>  <br/>
             <br />
-            <a href="">Fund transfer</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Support portal</a>  <br/>
             <br />
-            <a href="">60 day challenge</a>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Z-Connect blog</a>  <br/>
+            <br />
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">List of charges</a>  <br/>
+            <br />
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Downloads & resources</a>  <br/>
+            <br />
+          </div>
+          <div  className="col " >
+            <p style={{ fontWeight:"700" ,  color:"#424242" }}>Account</p>
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Open an account</a>  <br/>
+            <br />
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">Fund transfer</a>  <br/>
+            <br />
+            <a  style={{ textDecoration: "none" ,  color:"#424242" }} href="">60 day challenge</a>  <br/>
             <br />
           </div>
         </div>
-        <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
+        <div className="mt-5 fs-8 text-muted" style={{ fontSize: "12px" }}>
           <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities

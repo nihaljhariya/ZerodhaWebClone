@@ -38,3 +38,15 @@ code {
   border-radius: 10px;
   border: none;
 }
+.priceTable{
+  color:#387Ed1;
+}
+.priceTable:hover{
+  color:#424242;
+}
+.H6Class{
+  font-size: 16px;
+}
+.PClass{
+  font-size: 12px;
+}

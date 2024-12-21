@@ -11,7 +11,10 @@ const { OrdersModel } = require("./model/OrdersModel");
 require("dotenv").config();
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
-
+// const session = require("express-session");
+// const passport = require("passport");
+// const LocalStratergy = require("passport-local");
+// const User = require("./model/user.js");
 const app= express();
 app.use(cors());
 app.use(bodyParser.json());
@@ -191,6 +194,26 @@ app.use(bodyParser.json());
 
 // fetching data from database to dashboard
 // For Holdings :
+
+// const sessionOptions = {
+//   secret : "mysupersecretcode",
+//   resave : false,
+//   saveUnintialized:true,
+//   cookie:{
+//     expires:Date.now()+7*24*60*60*1000,
+//     maxAge:7*24*60*60*1000,
+//     httpOnly:true
+//   },
+// }
+
+// app.use(session(sessionOptions));
+// app.use(passport.initialize());
+// app.use(passport.session());
+// passport.use(new LocalStratergy(User.authenticate()));
+
+// passport.serializeUser(User.serializeUser());
+// passport.deserializeUser(User.deserializeUser());
+
 app.get("/allHoldings" , async(req , res)=>{
   let allHoldings = await HoldingsModel.find({});
   res.json(allHoldings);
