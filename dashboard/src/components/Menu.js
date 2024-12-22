@@ -91,8 +91,8 @@ const Menu = () => {
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
-          <div className="avatar">ZU</div>
-          <p className="username">USERID</p>
+          <div className="avatar">Nj</div>
+          <a href="http://localhost:3000/" className="username">Logout</a>
         </div>
       </div>
     </div>
